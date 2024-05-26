@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Assignment</title>
+    <link rel="stylesheet" href="../CSS/calculator_assignment.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="display" />
+      <br />
+      <button onclick="clr()">AC</button>
+      <button onclick="deleteLastDigit()">DE</button>
+      <button onclick="operations('%')">&percnt;</button>
+      <button onclick="operations('/')">&divide;</button>
+      <br />
+      <button onclick="val('7')">7</button>
+      <button onclick="val('8')">8</button>
+      <button onclick="val('9')">9</button>
+      <button onclick="operations('*')">&times;</button>
+      <br />
+      <button onclick="val('4')">4</button>
+      <button onclick="val('5')">5</button>
+      <button onclick="val('6')">6</button>
+      <button onclick="operations('-')">-</button>
+      <br />
+      <button onclick="val('1')">1</button>
+      <button onclick="val('2')">2</button>
+      <button onclick="val('3')">3</button>
+      <button onclick="operations('+')">+</button>
+      <br />
+      <button onclick="val('00')">00</button>
+      <button onclick="val('0')">0</button>
+      <button id="dot" onclick="val('.')">.</button>
+      <button onclick="calculate()">=</button>
+    </div>
+
+    <script src="../JAVASCRIPT/calculator.assignment.js"></script>
+  </body>
+</html>
